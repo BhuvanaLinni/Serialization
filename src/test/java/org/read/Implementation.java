@@ -31,5 +31,9 @@ topping.add(new Topping("5002", "Selenium"));
 topping.add(new Topping("5003", "python"));
 Root root = new Root("0001", "donut", "Cake", 0.55, batters , topping );
 objectMapper.writeValue(file, root);
+System.out.println("hi");
+System.out.println("hello");
+
+
 }
 }
